@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background:linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url("./assets/Rectangle\ 237.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width:100%;
+    height: 669px;
+    color:#ffff;
+}
+.banner-text{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    
+}
+.banner-title{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    width: 826px;
+    height: 158px;
+    margin-bottom: 15px;
+}
+.banner-text-small{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 691px;
+    height: 56px;
+    margin-bottom: 15px;
+}
+.banner-btn {
+    background: #FF5959;
+    color: #ffff;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+ /* donate-section started */
+
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: #121212;
+}
+.donate-title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: 700;
+}
+.donate-description{
+    color: #1b1919;
+    margin: 15px 0 20px 0;
+} 
+.ammount-list{
+    display: flex;
+    margin-bottom: 30px;
+}
+.list-item{
+    margin-left:5px;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#highlight{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.other-amnt{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 765px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.other-amnt::placeholder{
+    text-align: center;
+    font-family: 'Poppins';
+    color: #B3B3B3;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+/*donate plan and  basic needs section started */
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.donate-plan-title{
+    color: #121212;
+    width: 357px;
+    height: 54px;
+    font-family: "Inter",serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.donate-plan-description{
+    width: 691px;
+    height: 56px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 15px;
+
+}
+
+.basic-needs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food,.shelter,.education{
+    background: rgba(79, 157, 166, 0.1);
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+.food-icon,
+.food-title,
+.food-description,
+.shelter-icon,
+.shelter-title,
+.shelter-description,
+.education-icon,
+.education-title,
+.education-description
+{
+   margin: 30px 0 0px 30px;;
+}
+
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+.food-title,
+.shelter-title,
+.education-title{
+    color: #121212;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.food-description,.shelter-description,.education-description{
+    color: #121212;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.education{
+    background: #e9e8e6;
+    margin-right: 0;
+}
+
+/* optional bonus section which is called get help */
+.get-help{
+    margin-top:110px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+.card-donation,.card-survive{
+    height: 800px;
+    width: 450px;
+    background-color:#fdfeff;
+    box-shadow: 0px 3px 2px 1px rgb(186 183 183);
+    border-radius: 5px;
+}
+.card-donation-image,.card-survive-image{
+    width: 450px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.card-donation-title{
+    margin-bottom: 15px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-left: 10px;
+}
+.card-donation-description{
+    font-family: "Poppins",sans-serif;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.card-donation-button{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 25px 15px ;
+    background: #FF5959;
+    border-radius: 5px;
+    width: 230px;
+    height: 56px;
+    border: none;
+    color: #FFFFFF;
+}
+.card-survive{
+    margin-left: 35px;
+}
+
+/* get updates */
+
+.get-updates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.update-title{
+    color: #121212;
+    font-family: 'Inter',sans-serif;
+    width: 353px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.update-description{
+    color: #707070;
+    width: 691px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 15px;
+}
+.email-subcription{
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    display: flex;
+    justify-content: center;
+}
+.form-element{
+    align-self: center;
+}
+.email-input{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 275px;
+    height: 48px;
+    border: none;
+}
+.email-input::placeholder{
+    padding-left: 15px;
+}
+.email-submit{
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    margin-left: -4px;
+    color: #FFFFFF;
+}
+/* Footer section */
+.footer{
+    background: #0B0D17;
+    width: 100%;
+    height: 177px;
+}
+.footer-items{
+    position: relative;
+    top: 20%;
+}
+.footer-title{
+    font-family: "Charmonman",sans-serif;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    color: #FF5959;
+}
+.footer-text{
+    color: #D9DBE1;
+    font-family: "Manrope",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
